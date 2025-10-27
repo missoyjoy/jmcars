@@ -26,7 +26,7 @@ export default function CarsForSale() {
       color: "Silver",
       fuel: "Petrol",
       price: "$180/day",
-      status: "Hired",
+      status: "Sold",
     },
     {
       img: Land1,
@@ -58,7 +58,7 @@ export default function CarsForSale() {
       color: "Silver",
       fuel: "Petrol",
       price: "$180/day",
-      status: "Hired",
+      status: "Sold",
     },
     {
       img: Land1,
@@ -90,7 +90,7 @@ export default function CarsForSale() {
       color: "Silver",
       fuel: "Petrol",
       price: "$180/day",
-      status: "Hired",
+      status: "Sold",
     },
     {
       img: Land1,
@@ -123,7 +123,7 @@ export default function CarsForSale() {
     <div className="bg-black text-[#D4AF37] min-h-screen flex flex-col items-center py-10">
       {/* 1️⃣ Welcome Section */}
       <div className="text-center mb-12 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold">Cars For Hire</h1>
+        <h1 className="text-4xl md:text-6xl font-bold">Cars For Sale</h1>
         <p className="text-gray-400 mt-3 text-lg">
           Hire your dream car — luxury, comfort, and performance for any occasion.
         </p>
@@ -185,7 +185,7 @@ export default function CarsForSale() {
           <select className="p-3 rounded-xl bg-black border border-[#D4AF37] text-white">
             <option>Status</option>
             <option>Available</option>
-            <option>Hired</option>
+            <option>Sold</option>
           </select>
           <input
             type="text"
