@@ -1,4 +1,4 @@
-# JM Motors — Car Dealership Web App
+# 🚗 JM Motors — Car Dealership Web App
 
 A modern, responsive car dealership web application built with **React**, **Tailwind CSS**, **Firebase Authentication**, and the **API Ninjas Cars API**.  
 Users can browse cars for sale, view detailed specifications, and securely log in using email/password or Google authentication.
@@ -32,7 +32,7 @@ Users can browse cars for sale, view detailed specifications, and securely log i
 
 ---
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - **React.js** — Frontend framework  
 - **Tailwind CSS** — Styling  
