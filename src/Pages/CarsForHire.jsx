@@ -4,13 +4,11 @@ import Range1 from "../assets/Range1.jpg";
 import Range2 from "../assets/Range2.jpg";
 import MBenz from "../assets/MBenz.jpg";
 import Bm2 from "../assets/Bm2.jpg";
-import Volk from "../assets/Volk.jpg";
 import Land1 from "../assets/Land1.jpg";
 import Land2 from "../assets/Land2.jpg";
 import LandCruiser from "../assets/LandCruiser.jpg";
 import Ford1 from "../assets/Ford1.jpg";
 import FordRanger from "../assets/FordRanger.jpg";
-import Toyota from "../assets/toyota.jpg";
 
 const cars = [
   { img: RangeRover, name: "Range Rover Sport", color: "Black", fuel: "Diesel", price: "$200/day", status: "Available" },
@@ -18,13 +16,13 @@ const cars = [
   { img: Range2, name: "Range Rover Evoque", color: "Grey", fuel: "Petrol", price: "$180/day", status: "Hired" },
   { img: MBenz, name: "BMW 5 Series", color: "Black", fuel: "Petrol", price: "$160/day", status: "Available" },
   { img: Bm2, name: "BMW X5", color: "White", fuel: "Diesel", price: "$190/day", status: "Available" },
-  { img: Volk, name: "Volkswagen Touareg", color: "Silver", fuel: "Petrol", price: "$175/day", status: "Hired" },
+  { img: MBenz, name: "Mercedes Benz GLE", color: "Silver", fuel: "Petrol", price: "$175/day", status: "Hired" },
   { img: Land1, name: "Toyota Land Cruiser", color: "White", fuel: "Diesel", price: "$250/day", status: "Available" },
   { img: Land2, name: "Land Cruiser Prado", color: "Black", fuel: "Diesel", price: "$230/day", status: "Available" },
   { img: LandCruiser, name: "Land Cruiser V8", color: "Grey", fuel: "Diesel", price: "$270/day", status: "Available" },
   { img: Ford1, name: "Ford Ranger", color: "Blue", fuel: "Diesel", price: "$150/day", status: "Available" },
   { img: FordRanger, name: "Ford Ranger Wildtrak", color: "Orange", fuel: "Diesel", price: "$165/day", status: "Hired" },
-  { img: Toyota, name: "Toyota Fortuner", color: "White", fuel: "Diesel", price: "$140/day", status: "Available" },
+  { img: Ford1, name: "Ford Explorer", color: "White", fuel: "Diesel", price: "$140/day", status: "Available" },
 ];
 
 export default function CarsForHire() {
