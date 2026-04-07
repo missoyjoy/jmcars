@@ -2,29 +2,29 @@ import React from "react";
 import RangeRover from "../assets/RangeRover.jpg";
 import Range1 from "../assets/Range1.jpg";
 import Range2 from "../assets/Range2.jpg";
-import BMW from "../assets/BMW.jpg";
+import MBenz from "../assets/MBenz.jpg";
 import Bm2 from "../assets/Bm2.jpg";
-import Benz from "../assets/Benz.jpg";
+import Volk from "../assets/Volk.jpg";
 import Land1 from "../assets/Land1.jpg";
 import Land2 from "../assets/Land2.jpg";
 import LandCruiser from "../assets/LandCruiser.jpg";
 import Ford1 from "../assets/Ford1.jpg";
 import FordRanger from "../assets/FordRanger.jpg";
-import Lambo from "../assets/Lambo.jpg";
+import Toyota from "../assets/toyota.jpg";
 
 const cars = [
   { img: RangeRover, name: "Range Rover Sport", color: "Black", fuel: "Diesel", price: "$200/day", status: "Available" },
   { img: Range1, name: "Range Rover Vogue", color: "White", fuel: "Petrol", price: "$220/day", status: "Available" },
   { img: Range2, name: "Range Rover Evoque", color: "Grey", fuel: "Petrol", price: "$180/day", status: "Hired" },
-  { img: BMW, name: "BMW 5 Series", color: "Black", fuel: "Petrol", price: "$160/day", status: "Available" },
+  { img: MBenz, name: "BMW 5 Series", color: "Black", fuel: "Petrol", price: "$160/day", status: "Available" },
   { img: Bm2, name: "BMW X5", color: "White", fuel: "Diesel", price: "$190/day", status: "Available" },
-  { img: Benz, name: "Mercedes Benz E-Class", color: "Silver", fuel: "Petrol", price: "$175/day", status: "Hired" },
+  { img: Volk, name: "Volkswagen Touareg", color: "Silver", fuel: "Petrol", price: "$175/day", status: "Hired" },
   { img: Land1, name: "Toyota Land Cruiser", color: "White", fuel: "Diesel", price: "$250/day", status: "Available" },
   { img: Land2, name: "Land Cruiser Prado", color: "Black", fuel: "Diesel", price: "$230/day", status: "Available" },
   { img: LandCruiser, name: "Land Cruiser V8", color: "Grey", fuel: "Diesel", price: "$270/day", status: "Available" },
   { img: Ford1, name: "Ford Ranger", color: "Blue", fuel: "Diesel", price: "$150/day", status: "Available" },
   { img: FordRanger, name: "Ford Ranger Wildtrak", color: "Orange", fuel: "Diesel", price: "$165/day", status: "Hired" },
-  { img: Lambo, name: "Lamborghini Huracán", color: "Yellow", fuel: "Petrol", price: "$800/day", status: "Available" },
+  { img: Toyota, name: "Toyota Fortuner", color: "White", fuel: "Diesel", price: "$140/day", status: "Available" },
 ];
 
 export default function CarsForHire() {
